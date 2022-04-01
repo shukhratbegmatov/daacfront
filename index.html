@@ -7,50 +7,56 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./style.css">
     <style>
-        .main_logo {
-            display: flex;
+        .main_bg{
+            background-image: url('./Home.png');
+            height: 1000%;
             width: 100%;
-            justify-content: center;
-            padding-top: 50px;
+            background-repeat: no-repeat;
+        
         }
+        .site-wrapper{
+            padding-top: 160px;
+        }
+      
     </style>
     <title>Daac.uz</title>
 </head>
 <body>
-<div class="site-wrapper">
-    <div class="main_logo">
-        <img src="./daak.png" width="70px" alt="">
-    </div>
-    <div data-aos="zoom-in" data-aos-delay="600" class="col-12  aos-init aos-animate">
-        <div class="info-title"></div>
-        <div class="timer-wrapper">
-            <div class="time-wrapper">
-                <div class="this-time day-num"><span class="time-slider time-slider-10"><span></span> </span><span
-                        class="time-slider time-slider-01"><span></span></span>
+    <div class="main_bg">
+
+        <div class="site-wrapper">
+
+            <div data-aos="zoom-in" data-aos-delay="600" class="col-12  aos-init aos-animate">
+                <div class="info-title"></div>
+                <div class="timer-wrapper">
+                    <div class="time-wrapper">
+                        <div class="this-time day-num"><span class="time-slider time-slider-10"><span></span> </span><span
+                                class="time-slider time-slider-01"><span></span></span>
+                        </div>
+                        <div class="time-name font-size36">Дни</div>
+                    </div>
+                    <div class="time-wrapper">
+                        <div class="this-time hour-num"><span class="time-slider time-slider-10"><span></span> </span><span
+                                class="time-slider time-slider-01"><span></span></span>
+                        </div>
+                        <div class="time-name font-size36">Часы</div>
+                    </div>
+                    <div class="time-wrapper">
+                        <div class="this-time min-num"><span class="time-slider time-slider-10"><span></span> </span><span
+                                class="time-slider time-slider-01"><span></span></span>
+                        </div>
+                        <div class="time-name font-size36">Минуты</div>
+                    </div>
+                    <div class="time-wrapper">
+                        <div class="this-time sec-num"><span class="time-slider time-slider-10"><span></span> </span><span
+                                class="time-slider time-slider-01"><span></span></span>
+                        </div>
+                        <div class="time-name font-size36">Секунда</div>
+                    </div>
                 </div>
-                <div class="time-name font-size36">Дни</div>
-            </div>
-            <div class="time-wrapper">
-                <div class="this-time hour-num"><span class="time-slider time-slider-10"><span></span> </span><span
-                        class="time-slider time-slider-01"><span></span></span>
-                </div>
-                <div class="time-name font-size36">Часы</div>
-            </div>
-            <div class="time-wrapper">
-                <div class="this-time min-num"><span class="time-slider time-slider-10"><span></span> </span><span
-                        class="time-slider time-slider-01"><span></span></span>
-                </div>
-                <div class="time-name font-size36">Минуты</div>
-            </div>
-            <div class="time-wrapper">
-                <div class="this-time sec-num"><span class="time-slider time-slider-10"><span></span> </span><span
-                        class="time-slider time-slider-01"><span></span></span>
-                </div>
-                <div class="time-name font-size36">Секунда</div>
             </div>
         </div>
     </div>
-</div>
 
 <script src="./jquery.js"></script>
 <script src="./vendor.min.js"></script>

@@ -5,45 +5,6 @@ body {
     background-color: #000
 }
 
-@-moz-document url-prefix() {
-    body, div, html {
-        scrollbar-width: thin;
-        scroll-behavior: smooth
-    }
-}
-
-html {
-    scroll-behavior: smooth
-}
-
-html::-webkit-scrollbar {
-    width: 10px
-}
-
-html::-webkit-scrollbar, html::-webkit-scrollbar-track {
-    -webkit-transition: .4s ease-in-out;
-    -o-transition: .4s ease-in-out;
-    -moz-transition: .4s ease-in-out;
-    transition: .4s ease-in-out
-}
-
-html::-webkit-scrollbar-track {
-    background: #00000050
-}
-
-html::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 20px;
-    border-radius: 20px
-}
-
-html::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb:hover {
-    background: #00000030;
-    -webkit-transition: .4s ease-in-out;
-    -o-transition: .4s ease-in-out;
-    -moz-transition: .4s ease-in-out;
-    transition: .4s ease-in-out
-}
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -982,7 +943,8 @@ header {
     top: 0;
     bottom: 0;
     z-index: 2;
-    background: hsla(0, 0%, 100%, .4)
+    background: rgba(25,25,25,0.7);
+    pa
 }
 
 .timer-wrapper {
