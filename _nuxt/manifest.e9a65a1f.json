@@ -1,0 +1,9 @@
+{
+  "name": "daacnuxt",
+  "short_name": "daacnuxt",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}
